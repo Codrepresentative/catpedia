@@ -1,0 +1,125 @@
+.header{
+    display: grid;
+    grid-template-rows: 3fr 1fr;
+    height: 350px;
+    padding-bottom: 20px;
+    font-family: "Cute Font", sans-serif;
+    font-family: 700;
+    margin-bottom: 50px;
+}
+.header-picture{
+    height: 300px;
+    width: 100%;
+}
+.header-options{
+    display: flex;
+    flex-direction: row;
+    margin-top: -3px;
+    justify-content: space-between;
+    margin-top: 10px;
+
+    height: 70px;
+
+}
+.cat-options-div{
+    flex: 100px;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cat-memes{
+    font-family: "Cute Font", sans-serif;
+    padding: 10px;
+    margin-left: 70px;
+    font-family: 700;
+    font-size: 20px;
+    transition: background-color 0.15s,font-size 0.4s;
+    cursor: pointer;
+}
+
+.cat-memes:hover {
+    background-color: rgb(207, 23, 26);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+}
+.cats-around-you{
+    font-family: "Cute Font", sans-serif;
+    padding: 10px;
+    margin-left: 50px;
+    font-family: 700;
+    font-size: 20px;
+    transition: background-color 0.15s,font-size 0.4s;
+    cursor: pointer;
+}
+
+.cats-around-you:hover {
+    background-color: rgb(17, 226, 34);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.search-box-div{
+    flex: 2;
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+
+}
+.search-box-div{
+    font-family: "Cute Font", sans-serif;;
+    font-family: 700;
+}
+.search-box{
+    font-family: "Cute Font", sans-serif;;
+    font-family: 700;
+    width: 400px;
+    margin-left: 70px;
+    font-size: 30px;
+}
+.search-button-div{
+
+}
+.search-button{
+    font-family: "Cute Font", sans-serif;
+    font-family: 700;
+    font-size: 40px;
+    margin-left: -4px;
+    transition: background-color 0.15s,font-size 0.4s;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: rgb(23, 152, 207);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 40px;
+}
+
+.other-pets-div{
+    flex: 100px;
+    display: flex;
+    align-items: center;
+}
+.other-pets{
+    font-family: "Cute Font", sans-serif;
+    padding: 10px;
+    margin-left: 100px;
+    font-family: 700;
+    font-size: 20px;
+    transition: background-color 0.15s,font-size 0.4s;
+    cursor: pointer;
+}
+.other-pets:hover {
+        background-color: palevioletred;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 40px;
+}

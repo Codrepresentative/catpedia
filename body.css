@@ -1,0 +1,81 @@
+body {
+  }
+  
+.main-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.single-cat{
+    border-color: pink;
+    border-width: 2px;
+    border-style: double;
+    border-radius: 20px;
+    height: 400px;
+    background-color: purple;
+}
+.cat-image{
+    width: 198px;
+    margin-left: 70px;
+    padding: 15px;
+    padding-bottom: 40px;
+}
+.cat-photo{
+    width: 100%;
+}
+
+.cat-info{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Cute Font", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+.info-button-class{
+    border-style: none;
+    border-radius: 25px;
+}
+.info-button-pic{
+    width: 40px;
+    padding: 0px;
+    border-radius: 25px;
+}
+
+.share-div{
+
+
+}
+.twitter{
+    width: 50px;
+    border-radius: 25px;
+}
+
+.yt-button{
+        background-color: rgb(234, 6, 6);
+        color: white;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 8px;
+        padding-right: 8px;
+        border-radius: 200px;
+        cursor: pointer;
+        margin-right: 8px;
+        transition: opacity 0.15s;
+        width: 70px;
+        
+        
+    }
+
